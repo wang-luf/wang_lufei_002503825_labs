@@ -38,31 +38,26 @@
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="lblManuStreet" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                      <Component id="fieldPrice" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Group type="103" groupAlignment="1" attributes="0">
-                                          <Component id="lblManuCity" min="-2" max="-2" attributes="0"/>
-                                          <Component id="lblManuUnit" min="-2" max="-2" attributes="0"/>
-                                          <Component id="lblManuZipcode" alignment="1" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="fieldManuUnit" min="-2" max="-2" attributes="0"/>
-                                          <Component id="fieldManuZipcode" min="-2" max="-2" attributes="0"/>
-                                          <Component id="fieldManuCity" min="-2" max="-2" attributes="0"/>
-                                      </Group>
+                                  <Component id="IbIManuStreet" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                      <Component id="lblManuCity" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblManuUnit" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblManuZipcode" alignment="1" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
-                              <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="fieldManufStreet" min="-2" max="-2" attributes="0"/>
+                                  <Component id="fieldManuUnit" min="-2" max="-2" attributes="0"/>
+                                  <Component id="fieldManuCity" min="-2" max="-2" attributes="0"/>
+                                  <Component id="fieldManuZipcode" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" attributes="0">
                                       <Component id="lblManuStreet1" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                                      <Component id="fieldPrice1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="fieldShippingStreet" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
                                       <Group type="103" groupAlignment="1" attributes="0">
@@ -70,18 +65,11 @@
                                           <Component id="lblManuUnit1" min="-2" max="-2" attributes="0"/>
                                           <Component id="lblManuZipcode1" alignment="1" min="-2" max="-2" attributes="0"/>
                                       </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Group type="102" alignment="0" attributes="0">
-                                              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
-                                              <Component id="fieldManuUnit1" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <Group type="102" alignment="0" attributes="0">
-                                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Component id="fieldManuCity1" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="fieldManuZipcode1" min="-2" max="-2" attributes="0"/>
-                                              </Group>
-                                          </Group>
+                                          <Component id="fieldShippingUnit" min="-2" max="-2" attributes="0"/>
+                                          <Component id="fieldShippingCity" min="-2" max="-2" attributes="0"/>
+                                          <Component id="fieldShippingZipcode" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                               </Group>
@@ -99,7 +87,7 @@
                           <Group type="102" alignment="1" attributes="0">
                               <Component id="lblPrice" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="fieldManuStreet" min="-2" pref="123" max="-2" attributes="0"/>
+                              <Component id="fieldPrice" min="-2" pref="123" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="1" attributes="0">
                               <Component id="lblAvailability" min="-2" max="-2" attributes="0"/>
@@ -114,12 +102,12 @@
                       </Group>
                   </Group>
               </Group>
-              <EmptySpace pref="34" max="32767" attributes="0"/>
+              <EmptySpace pref="50" max="32767" attributes="0"/>
           </Group>
           <Group type="102" alignment="1" attributes="0">
               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="161" max="-2" attributes="0"/>
+              <Component id="SaveButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="162" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -148,7 +136,7 @@
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="lblPrice" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="fieldManuStreet" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="fieldPrice" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
@@ -157,53 +145,49 @@
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="lblManuStreet" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="fieldPrice" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="IbIManuStreet" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="lblManuStreet1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="fieldPrice1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="fieldShippingStreet" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="fieldManufStreet" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace pref="12" max="32767" attributes="0"/>
+                      <EmptySpace pref="16" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="lblManuUnit1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="fieldManuUnit1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="fieldShippingUnit" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="fieldManuUnit" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="fieldManuUnit" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="lblManuUnit" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
+                      <Component id="lblManuUnit" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="lblManuCity" min="-2" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="fieldManuZipcode" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="lblManuCity1" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="fieldManuZipcode1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="fieldShippingCity" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="fieldManuCity" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="lblManuZipcode" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="fieldManuCity" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
+                      <Component id="lblManuZipcode" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="lblManuZipcode1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="fieldManuCity1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="fieldShippingZipcode" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="fieldManuZipcode" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
-              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
-              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="32" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+              <Component id="SaveButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -252,11 +236,6 @@
         <Property name="text" type="java.lang.String" value="Price"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="fieldPrice">
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fieldPriceActionPerformed"/>
-      </Events>
-    </Component>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
@@ -273,7 +252,7 @@
         <Property name="text" type="java.lang.String" value="Shipping Address"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="lblManuStreet">
+    <Component class="javax.swing.JLabel" name="IbIManuStreet">
       <Properties>
         <Property name="text" type="java.lang.String" value="Street Name"/>
       </Properties>
@@ -293,24 +272,9 @@
         <Property name="text" type="java.lang.String" value="Zip Code"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="fieldManuStreet">
+    <Component class="javax.swing.JTextField" name="fieldPrice">
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fieldManuStreetActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JTextField" name="fieldManuUnit">
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fieldManuUnitActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JTextField" name="fieldManuCity">
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fieldManuCityActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JTextField" name="fieldManuZipcode">
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fieldManuZipcodeActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fieldPriceActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="lblManuStreet1">
@@ -318,47 +282,89 @@
         <Property name="text" type="java.lang.String" value="Street Name"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="fieldPrice1">
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fieldPrice1ActionPerformed"/>
-      </Events>
-    </Component>
     <Component class="javax.swing.JLabel" name="lblManuUnit1">
       <Properties>
         <Property name="text" type="java.lang.String" value="Unit Number"/>
       </Properties>
-    </Component>
-    <Component class="javax.swing.JTextField" name="fieldManuUnit1">
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fieldManuUnit1ActionPerformed"/>
-      </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="lblManuCity1">
       <Properties>
         <Property name="text" type="java.lang.String" value="City"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="fieldManuZipcode1">
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fieldManuZipcode1ActionPerformed"/>
-      </Events>
-    </Component>
     <Component class="javax.swing.JLabel" name="lblManuZipcode1">
       <Properties>
         <Property name="text" type="java.lang.String" value="Zip Code"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="fieldManuCity1">
+    <Component class="javax.swing.JTextField" name="fieldShippingUnit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="             "/>
+      </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fieldManuCity1ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fieldShippingUnitActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton1">
+    <Component class="javax.swing.JTextField" name="fieldShippingStreet">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="             "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="fieldManufStreet">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="             "/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fieldManufStreetActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="fieldManuUnit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="             "/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fieldManuUnitActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="fieldShippingCity">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="             "/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fieldShippingCityActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="fieldManuCity">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="             "/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fieldManuCityActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="fieldShippingZipcode">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="             "/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fieldShippingZipcodeActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="SaveButton">
       <Properties>
         <Property name="text" type="java.lang.String" value="Save"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+        <EventHandler event="hierarchyChanged" listener="java.awt.event.HierarchyListener" parameters="java.awt.event.HierarchyEvent" handler="SaveButtonHierarchyChanged"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SaveButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="fieldManuZipcode">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="             "/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fieldManuZipcodeActionPerformed"/>
       </Events>
     </Component>
   </SubComponents>
