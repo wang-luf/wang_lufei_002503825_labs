@@ -25,7 +25,6 @@ public class AdminWorkAreaJPanel extends javax.swing.JPanel {
         initComponents();
         this.mainWorkArea = mainWorkArea;
         this.supplierDirectory = supplierDirectory;
-        
         lblWelcome.setText("Welcome to Lab 4!");
     }
     
@@ -117,11 +116,8 @@ public class AdminWorkAreaJPanel extends javax.swing.JPanel {
         Component component =componentArray[componentArray.length-1];
         LoginScreen loginPanel=(LoginScreen) component;
         loginPanel.populateSupplierCombo();
-        
         CardLayout layout = (CardLayout) mainWorkArea.getLayout();
         layout.previous(mainWorkArea);
-        
- 
                 
     }//GEN-LAST:event_btnLogOutActionPerformed
 
