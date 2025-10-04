@@ -43,9 +43,9 @@ public class ManageProductsPanel extends javax.swing.JPanel {
         refreshTable();
 
         // 绑定按钮事件（如果你已在设计器里双击生成过事件，可用那三个方法体里调用相同逻辑）
-        btnAddRow.addActionListener(e -> onAddRow());
-        btnDelete.addActionListener(e -> onDelete());
-        btnSave.addActionListener(e -> onSave());
+        //btnAddRow.addActionListener(e -> onAddRow());
+        //btnDelete.addActionListener(e -> onDelete());
+        //btnSave.addActionListener(e -> onSave());
     }
     
     private void refreshTable() {
@@ -132,6 +132,7 @@ public class ManageProductsPanel extends javax.swing.JPanel {
                 "ID", "Name", "Category", "Price", "Number", "Prep Time"
             }
         ));
+        tblProducts.setRowHeight(24);
         jScrollPane1.setViewportView(tblProducts);
 
         btnAddRow.setText("Add Row");
@@ -159,17 +160,18 @@ public class ManageProductsPanel extends javax.swing.JPanel {
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 331, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(27, 27, 27))
             .addGroup(layout.createSequentialGroup()
-                .addGap(59, 59, 59)
-                .addComponent(btnAddRow)
-                .addGap(31, 31, 31)
-                .addComponent(btnDelete)
-                .addGap(30, 30, 30)
-                .addComponent(btnSave)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(59, 59, 59)
+                        .addComponent(btnAddRow)
+                        .addGap(31, 31, 31)
+                        .addComponent(btnDelete)
+                        .addGap(30, 30, 30)
+                        .addComponent(btnSave))
+                    .addGroup(layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
