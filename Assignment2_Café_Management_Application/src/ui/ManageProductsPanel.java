@@ -34,7 +34,6 @@ public class ManageProductsPanel extends javax.swing.JPanel {
         this.workArea = workArea;
         this.catalog = catalog;
 
-        // （可选）让 Category 列用下拉选择枚举
         try {
             JComboBox<Category> catEditor = new JComboBox<>(Category.values());
             tblProducts.getColumnModel().getColumn(2).setCellEditor(new DefaultCellEditor(catEditor));
@@ -42,10 +41,6 @@ public class ManageProductsPanel extends javax.swing.JPanel {
 
         refreshTable();
 
-        // 绑定按钮事件（如果你已在设计器里双击生成过事件，可用那三个方法体里调用相同逻辑）
-        //btnAddRow.addActionListener(e -> onAddRow());
-        //btnDelete.addActionListener(e -> onDelete());
-        //btnSave.addActionListener(e -> onSave());
     }
     
     private void refreshTable() {
@@ -85,7 +80,7 @@ public class ManageProductsPanel extends javax.swing.JPanel {
         for (int r = 0; r < m.getRowCount(); r++) {
             Object idObj = m.getValueAt(r,0);
             Object nameObj = m.getValueAt(r,1);
-            if (idObj==null || nameObj==null || nameObj.toString().trim().isEmpty()) continue; // 跳过空行
+            if (idObj==null || nameObj==null || nameObj.toString().trim().isEmpty()) continue;
 
             Product p = new Product();
             try { p.setProductId(Integer.parseInt(idObj.toString())); }

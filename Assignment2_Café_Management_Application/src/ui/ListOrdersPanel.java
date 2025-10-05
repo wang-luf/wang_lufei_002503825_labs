@@ -131,14 +131,12 @@ public class ListOrdersPanel extends javax.swing.JPanel {
         int[] rows = tblOrders.getSelectedRows();
         if (rows.length == 0) { JOptionPane.showMessageDialog(this, "Select at least one row."); return; }
 
-        // 先取选中行的 orderId
         java.util.List<Integer> ids = new java.util.ArrayList<>();
         for (int r : rows) {
-            Object v = tblOrders.getValueAt(r, 0); // 第0列是 Order ID
+            Object v = tblOrders.getValueAt(r, 0); 
             if (v != null) ids.add(Integer.parseInt(v.toString()));
         }
 
-        // 从目录删除，同时从客户的订单列表移除
         for (Integer id : ids) {
             model.Order o = orderDirectory.findById(id);
             if (o != null) {

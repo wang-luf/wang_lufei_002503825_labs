@@ -1,4 +1,3 @@
-// model/ProductCatalog.java
 package model;
 import java.util.*;
 
