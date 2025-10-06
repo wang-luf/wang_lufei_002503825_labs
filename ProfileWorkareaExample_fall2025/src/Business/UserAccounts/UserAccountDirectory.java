@@ -54,4 +54,12 @@ public class UserAccountDirectory {
      {
          return useraccountlist;
      }
+     
+     public UserAccount findByUserName(String username) {
+        for (UserAccount ua : useraccountlist) {
+            if (ua.getUserLoginName().equals(username)) return ua;
+        }
+        return null;
+     }
 }
+
