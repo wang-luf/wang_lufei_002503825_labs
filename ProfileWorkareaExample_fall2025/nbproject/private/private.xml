@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Users/l/NetBeansProjects/ProfileWorkareaExample_fall2025/src/Business/Business.java</file>
+            <file>file:/Users/l/NetBeansProjects/ProfileWorkareaExample_fall2025/src/Business/UserAccounts/UserAccount.java</file>
+            <file>file:/Users/l/NetBeansProjects/ProfileWorkareaExample_fall2025/src/Business/Profiles/FacultyDirectory.java</file>
+            <file>file:/Users/l/NetBeansProjects/ProfileWorkareaExample_fall2025/src/ProfileWorkAreaMainFrame.java</file>
+            <file>file:/Users/l/NetBeansProjects/ProfileWorkareaExample_fall2025/src/UserInterface/WorkAreas/FacultyRole/FacultyWorkAreaJPanel.java</file>
+            <file>file:/Users/l/NetBeansProjects/ProfileWorkareaExample_fall2025/src/Business/Profiles/FacultyProfile.java</file>
+            <file>file:/Users/l/NetBeansProjects/ProfileWorkareaExample_fall2025/src/UserInterface/WorkAreas/StudentRole/StudentSignUpJPanel.java</file>
+            <file>file:/Users/l/NetBeansProjects/ProfileWorkareaExample_fall2025/src/Business/UserAccounts/UserAccountDirectory.java</file>
+            <file>file:/Users/l/NetBeansProjects/ProfileWorkareaExample_fall2025/src/ConfigureABusiness.java</file>
+        </group>
+    </open-files>
 </project-private>

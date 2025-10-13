@@ -231,51 +231,52 @@ public class ViewPersonPanel extends javax.swing.JPanel {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(40, 40, 40)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGap(40, 40, 40)
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(IbIManuStreet)
                                     .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addGap(19, 19, 19)
-                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                            .addComponent(lblManuCity)
-                                            .addComponent(lblManuZipcode)))
-                                    .addComponent(lblManuUnit, javax.swing.GroupLayout.Alignment.TRAILING))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(fieldManufStreet, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(fieldManuCity, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(fieldManuZipcode, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(IbIManuStreet)
+                                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                                .addGap(19, 19, 19)
+                                                .addComponent(lblManuZipcode))
+                                            .addComponent(lblManuUnit, javax.swing.GroupLayout.Alignment.TRAILING)
+                                            .addComponent(lblManuCity, javax.swing.GroupLayout.Alignment.TRAILING))
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(fieldManufStreet, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(fieldManuCity, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(fieldManuZipcode, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addGroup(jPanel1Layout.createSequentialGroup()
+                                        .addGap(85, 85, 85)
+                                        .addComponent(fieldManuUnit, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
                             .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(85, 85, 85)
-                                .addComponent(fieldManuUnit, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(179, 179, 179)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addGroup(jPanel1Layout.createSequentialGroup()
-                                    .addGap(19, 19, 19)
-                                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                        .addComponent(lblManuCity1)
-                                        .addComponent(lblManuZipcode1))
-                                    .addGap(18, 18, 18)
-                                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(fieldShippingCity, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(fieldShippingZipcode, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                .addGroup(jPanel1Layout.createSequentialGroup()
-                                    .addComponent(lblManuStreet1)
-                                    .addGap(18, 18, 18)
-                                    .addComponent(fieldShippingStreet, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addGap(98, 98, 98)
+                                .addComponent(jLabel1)))
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(lblManuUnit1)
+                                .addGap(1, 1, 1)
+                                .addComponent(jLabel2))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addGap(18, 18, 18)
-                                .addComponent(fieldShippingUnit, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(1, 1, 1))))
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addGroup(jPanel1Layout.createSequentialGroup()
+                                        .addComponent(lblManuStreet1)
+                                        .addGap(18, 18, 18)
+                                        .addComponent(fieldShippingStreet, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(jPanel1Layout.createSequentialGroup()
+                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                            .addComponent(lblManuUnit1)
+                                            .addComponent(lblManuCity1)
+                                            .addComponent(lblManuZipcode1, javax.swing.GroupLayout.Alignment.LEADING))
+                                        .addGap(18, 18, 18)
+                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(fieldShippingCity, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(fieldShippingUnit, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(fieldShippingZipcode, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))))))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(202, 202, 202)
-                        .addComponent(lblTitle))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(112, 112, 112)
+                        .addGap(73, 73, 73)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
@@ -301,21 +302,19 @@ public class ViewPersonPanel extends javax.swing.JPanel {
                             .addComponent(fieldName1, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(fieldAvaliability1, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(256, 256, 256)
-                        .addComponent(SaveButton))
+                        .addGap(144, 144, 144)
+                        .addComponent(lblTitle))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(98, 98, 98)
-                        .addComponent(jLabel1)
-                        .addGap(179, 179, 179)
-                        .addComponent(jLabel2)))
-                .addContainerGap(70, Short.MAX_VALUE))
+                        .addGap(169, 169, 169)
+                        .addComponent(SaveButton)))
+                .addContainerGap(18, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(38, 38, 38)
+                .addGap(37, 37, 37)
                 .addComponent(lblTitle)
-                .addGap(26, 26, 26)
+                .addGap(29, 29, 29)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(fieldName1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -338,93 +337,94 @@ public class ViewPersonPanel extends javax.swing.JPanel {
                     .addComponent(lblPrice3)
                     .addComponent(fieldAvaliability2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lblName2))
-                .addGap(29, 29, 29)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel1)
-                    .addComponent(jLabel2))
-                .addGap(18, 18, 18)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(IbIManuStreet)
-                    .addComponent(lblManuStreet1)
-                    .addComponent(fieldShippingStreet, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(fieldManufStreet, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(fieldShippingUnit, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(lblManuUnit1)
-                    .addComponent(lblManuUnit)
-                    .addComponent(fieldManuUnit, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 11, Short.MAX_VALUE)
+                .addGap(65, 65, 65)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(lblManuCity)
-                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(lblManuCity1)
-                        .addComponent(fieldShippingCity, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(fieldManuCity, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addComponent(jLabel1)
+                        .addGap(18, 18, 18))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addComponent(jLabel2)
+                        .addGap(18, 18, 18)))
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(IbIManuStreet)
+                            .addComponent(fieldManufStreet, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(lblManuZipcode))
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblManuUnit)
+                            .addComponent(fieldManuUnit, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblManuCity)
+                            .addComponent(fieldManuCity, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblManuZipcode)
+                            .addComponent(fieldManuZipcode, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(12, 12, 12)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblManuStreet1)
+                            .addComponent(fieldShippingStreet, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(fieldShippingUnit, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblManuUnit1))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(fieldShippingCity, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblManuCity1))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(lblManuZipcode1)
-                            .addComponent(fieldShippingZipcode, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(fieldManuZipcode, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addGap(31, 31, 31)
+                            .addComponent(fieldShippingZipcode, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(SaveButton)
-                .addGap(18, 18, 18))
+                .addContainerGap(37, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 600, Short.MAX_VALUE)
-            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(layout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 480, Short.MAX_VALUE)
-            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(layout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGap(0, 0, Short.MAX_VALUE)))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(14, 14, 14)
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
-    private void fieldShippingUnitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fieldShippingUnitActionPerformed
+    private void fieldAvaliability3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fieldAvaliability3ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_fieldShippingUnitActionPerformed
+    }//GEN-LAST:event_fieldAvaliability3ActionPerformed
 
-    private void fieldManufStreetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fieldManufStreetActionPerformed
+    private void fieldAvaliability2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fieldAvaliability2ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_fieldManufStreetActionPerformed
+    }//GEN-LAST:event_fieldAvaliability2ActionPerformed
 
-    private void fieldManuUnitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fieldManuUnitActionPerformed
+    private void fieldAvaliability1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fieldAvaliability1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_fieldManuUnitActionPerformed
+    }//GEN-LAST:event_fieldAvaliability1ActionPerformed
 
-    private void fieldShippingCityActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fieldShippingCityActionPerformed
+    private void fieldName1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fieldName1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_fieldShippingCityActionPerformed
+    }//GEN-LAST:event_fieldName1ActionPerformed
 
-    private void fieldManuCityActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fieldManuCityActionPerformed
+    private void fieldPriceActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fieldPriceActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_fieldManuCityActionPerformed
+    }//GEN-LAST:event_fieldPriceActionPerformed
 
-    private void fieldShippingZipcodeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fieldShippingZipcodeActionPerformed
+    private void fieldAvaliabilityActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fieldAvaliabilityActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_fieldShippingZipcodeActionPerformed
+    }//GEN-LAST:event_fieldAvaliabilityActionPerformed
 
-    private void SaveButtonHierarchyChanged(java.awt.event.HierarchyEvent evt) {//GEN-FIRST:event_SaveButtonHierarchyChanged
+    private void fieldManuZipcodeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fieldManuZipcodeActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_SaveButtonHierarchyChanged
+    }//GEN-LAST:event_fieldManuZipcodeActionPerformed
 
     private void SaveButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SaveButtonActionPerformed
         // TODO add your handling code here:
@@ -469,33 +469,33 @@ public class ViewPersonPanel extends javax.swing.JPanel {
             fieldShippingZipcode.setText("");
     }//GEN-LAST:event_SaveButtonActionPerformed
 
-    private void fieldManuZipcodeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fieldManuZipcodeActionPerformed
+    private void SaveButtonHierarchyChanged(java.awt.event.HierarchyEvent evt) {//GEN-FIRST:event_SaveButtonHierarchyChanged
         // TODO add your handling code here:
-    }//GEN-LAST:event_fieldManuZipcodeActionPerformed
+    }//GEN-LAST:event_SaveButtonHierarchyChanged
 
-    private void fieldAvaliabilityActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fieldAvaliabilityActionPerformed
+    private void fieldShippingZipcodeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fieldShippingZipcodeActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_fieldAvaliabilityActionPerformed
+    }//GEN-LAST:event_fieldShippingZipcodeActionPerformed
 
-    private void fieldPriceActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fieldPriceActionPerformed
+    private void fieldManuCityActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fieldManuCityActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_fieldPriceActionPerformed
+    }//GEN-LAST:event_fieldManuCityActionPerformed
 
-    private void fieldName1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fieldName1ActionPerformed
+    private void fieldShippingCityActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fieldShippingCityActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_fieldName1ActionPerformed
+    }//GEN-LAST:event_fieldShippingCityActionPerformed
 
-    private void fieldAvaliability1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fieldAvaliability1ActionPerformed
+    private void fieldManuUnitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fieldManuUnitActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_fieldAvaliability1ActionPerformed
+    }//GEN-LAST:event_fieldManuUnitActionPerformed
 
-    private void fieldAvaliability2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fieldAvaliability2ActionPerformed
+    private void fieldManufStreetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fieldManufStreetActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_fieldAvaliability2ActionPerformed
+    }//GEN-LAST:event_fieldManufStreetActionPerformed
 
-    private void fieldAvaliability3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fieldAvaliability3ActionPerformed
+    private void fieldShippingUnitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fieldShippingUnitActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_fieldAvaliability3ActionPerformed
+    }//GEN-LAST:event_fieldShippingUnitActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

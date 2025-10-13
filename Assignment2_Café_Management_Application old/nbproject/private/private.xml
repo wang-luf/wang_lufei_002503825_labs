@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Users/l/NetBeansProjects/Assignment2_Café_Management_Application/src/model/ProductCatalog.java</file>
+            <file>file:/Users/l/NetBeansProjects/Assignment2_Café_Management_Application/src/model/Product.java</file>
+            <file>file:/Users/l/NetBeansProjects/Assignment2_Café_Management_Application/src/model/OrderType.java</file>
+            <file>file:/Users/l/NetBeansProjects/Assignment2_Café_Management_Application/src/model/Category.java</file>
+            <file>file:/Users/l/NetBeansProjects/Assignment2_Café_Management_Application/src/ui/MainJFrame.java</file>
+            <file>file:/Users/l/NetBeansProjects/Assignment2_Café_Management_Application/src/model/PaymentMethod.java</file>
+            <file>file:/Users/l/NetBeansProjects/Assignment2_Café_Management_Application/src/model/OrderStatus.java</file>
+            <file>file:/Users/l/NetBeansProjects/Assignment2_Café_Management_Application/src/ui/ManageProductsPanel.java</file>
+            <file>file:/Users/l/NetBeansProjects/Assignment2_Café_Management_Application/src/model/Customer.java</file>
+            <file>file:/Users/l/NetBeansProjects/Assignment2_Café_Management_Application/src/ui/SearchCustomersPanel.java</file>
+            <file>file:/Users/l/NetBeansProjects/Assignment2_Café_Management_Application/src/ui/AddCustomerOrderPanel.java</file>
+            <file>file:/Users/l/NetBeansProjects/Assignment2_Café_Management_Application/src/model/OrderDirectory.java</file>
+            <file>file:/Users/l/NetBeansProjects/Assignment2_Café_Management_Application/src/model/Order.java</file>
+            <file>file:/Users/l/NetBeansProjects/Assignment2_Café_Management_Application/src/ui/ListOrdersPanel.java</file>
+        </group>
+    </open-files>
+</project-private>

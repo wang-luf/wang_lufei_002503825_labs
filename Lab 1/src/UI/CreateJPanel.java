@@ -391,7 +391,7 @@ public class CreateJPanel extends javax.swing.JPanel {
         product.setName (name);
         product.setDescription (description);
         product.setAvailNum(avail);
-        product. setPrice(price);
+        product.setPrice(price);
         product.getManufactureAddress().setStreetName ( manuStreet); 
         product.getManufactureAddress ().setUnitNum( manuUnit); 
         product.getManufactureAddress ().setCity (manuCity);
