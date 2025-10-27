@@ -4,9 +4,7 @@
  * and open the template in the editor.
  */
 package Business.Profiles;
-
 import Business.Person.Person;
-
 import java.util.ArrayList;
 
 /**
@@ -14,8 +12,6 @@ import java.util.ArrayList;
  * @author kal bugrara
  */
 public class StudentDirectory {
-
-
     ArrayList<StudentProfile> studentlist;
 
     public StudentDirectory() {
