@@ -19,6 +19,7 @@ public class LoginJFrame extends javax.swing.JFrame {
     private Session session;
     private char defaultEchoChar; 
 
+   
 
     /**
      * Creates new form LoginJFrame
@@ -229,7 +230,6 @@ public class LoginJFrame extends javax.swing.JFrame {
         });
     }
  
-
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnClear;
     private javax.swing.JButton btnLogin;
