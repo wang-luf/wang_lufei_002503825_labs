@@ -26,7 +26,7 @@ public class MainJFrame extends javax.swing.JFrame {
         setTitle("Coffee POS");
     }
 
-    // 在 MainJFrame 类内部添加：
+
     private void pushPanel(javax.swing.JPanel p){
         workArea.add(p.getClass().getSimpleName(), p);
         ((java.awt.CardLayout) workArea.getLayout()).next(workArea);
@@ -99,7 +99,7 @@ public class MainJFrame extends javax.swing.JFrame {
                     .addComponent(btnSearchCustomers)
                     .addComponent(btnAddCustomerOrder)
                     .addComponent(btnManageProducts))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(304, Short.MAX_VALUE))
         );
         menuPanelLayout.setVerticalGroup(
             menuPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -112,7 +112,7 @@ public class MainJFrame extends javax.swing.JFrame {
                 .addComponent(btnSearchCustomers)
                 .addGap(18, 18, 18)
                 .addComponent(btnListOrders)
-                .addContainerGap(136, Short.MAX_VALUE))
+                .addContainerGap(148, Short.MAX_VALUE))
         );
 
         jSplitPane1.setLeftComponent(menuPanel);

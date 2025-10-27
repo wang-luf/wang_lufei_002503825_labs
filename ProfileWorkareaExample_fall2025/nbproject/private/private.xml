@@ -3,15 +3,25 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Users/l/NetBeansProjects/ProfileWorkareaExample_fall2025/src/Business/Business.java</file>
+            <file>file:/Users/l/NetBeansProjects/ProfileWorkareaExample_fall2025/src/UserInterface/WorkAreas/AdminRole/AdminRoleWorkAreaJPanel.java</file>
             <file>file:/Users/l/NetBeansProjects/ProfileWorkareaExample_fall2025/src/Business/UserAccounts/UserAccount.java</file>
+            <file>file:/Users/l/NetBeansProjects/ProfileWorkareaExample_fall2025/src/Business/Profiles/Profile.java</file>
+            <file>file:/Users/l/NetBeansProjects/ProfileWorkareaExample_fall2025/src/UserInterface/WorkAreas/AdminRole/AdministerUserAccountsWorkResp/ManageUserAccountsJPanel.java</file>
             <file>file:/Users/l/NetBeansProjects/ProfileWorkareaExample_fall2025/src/Business/Profiles/FacultyDirectory.java</file>
+            <file>file:/Users/l/NetBeansProjects/ProfileWorkareaExample_fall2025/src/Business/Profiles/StudentProfile.java</file>
+            <file>file:/Users/l/NetBeansProjects/ProfileWorkareaExample_fall2025/src/Business/Profiles/StudentDirectory.java</file>
+            <file>file:/Users/l/NetBeansProjects/ProfileWorkareaExample_fall2025/src/Business/Profiles/FacultyProfile.java</file>
+            <file>file:/Users/l/NetBeansProjects/ProfileWorkareaExample_fall2025/src/UserInterface/WorkAreas/StudentRole/StudentWorkAreaJPanel.java</file>
+            <file>file:/Users/l/NetBeansProjects/ProfileWorkareaExample_fall2025/src/Business/Profiles/EmployeeDirectory.java</file>
+            <file>file:/Users/l/NetBeansProjects/ProfileWorkareaExample_fall2025/src/Business/Business.java</file>
             <file>file:/Users/l/NetBeansProjects/ProfileWorkareaExample_fall2025/src/ProfileWorkAreaMainFrame.java</file>
             <file>file:/Users/l/NetBeansProjects/ProfileWorkareaExample_fall2025/src/UserInterface/WorkAreas/FacultyRole/FacultyWorkAreaJPanel.java</file>
-            <file>file:/Users/l/NetBeansProjects/ProfileWorkareaExample_fall2025/src/Business/Profiles/FacultyProfile.java</file>
             <file>file:/Users/l/NetBeansProjects/ProfileWorkareaExample_fall2025/src/UserInterface/WorkAreas/StudentRole/StudentSignUpJPanel.java</file>
             <file>file:/Users/l/NetBeansProjects/ProfileWorkareaExample_fall2025/src/Business/UserAccounts/UserAccountDirectory.java</file>
             <file>file:/Users/l/NetBeansProjects/ProfileWorkareaExample_fall2025/src/ConfigureABusiness.java</file>
+            <file>file:/Users/l/NetBeansProjects/ProfileWorkareaExample_fall2025/src/Business/Person/PersonDirectory.java</file>
+            <file>file:/Users/l/NetBeansProjects/ProfileWorkareaExample_fall2025/src/UserInterface/WorkAreas/AdminRole/AdministerUserAccountsWorkResp/AdminUserAccount.java</file>
+            <file>file:/Users/l/NetBeansProjects/ProfileWorkareaExample_fall2025/src/UserInterface/WorkAreas/AdminRole/ManagePersonnelWorkResp/AdministerPersonJPanel.java</file>
         </group>
     </open-files>
 </project-private>
