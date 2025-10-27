@@ -9,8 +9,6 @@ import Business.Business;
 import Business.ConfigureABusiness;
 import javax.swing.*;
 import java.awt.*;
-
-
 /**
  *
  * @author l

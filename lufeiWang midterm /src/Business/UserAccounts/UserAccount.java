@@ -8,7 +8,6 @@ package Business.UserAccounts;
 import Business.Profiles.Profile;
 
 
-
 /**
  *
  * @author kal bugrara
