@@ -73,9 +73,14 @@ public class ProfileWorkAreaMainFrame extends javax.swing.JFrame {
 
         jLabel1.setText("User Name");
 
-        UserNameTextField.setText("admin");
+        UserNameTextField.setText("admin@uni.edu");
+        UserNameTextField.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                UserNameTextFieldActionPerformed(evt);
+            }
+        });
 
-        PasswordTextField.setText("****");
+        PasswordTextField.setText("admin123");
         PasswordTextField.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 PasswordTextFieldActionPerformed(evt);
@@ -173,6 +178,10 @@ public class ProfileWorkAreaMainFrame extends javax.swing.JFrame {
     private void PasswordTextFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PasswordTextFieldActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_PasswordTextFieldActionPerformed
+
+    private void UserNameTextFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_UserNameTextFieldActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_UserNameTextFieldActionPerformed
 
     /**
      * @param args the command line arguments

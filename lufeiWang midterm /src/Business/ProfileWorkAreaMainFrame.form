@@ -95,12 +95,15 @@
             </Component>
             <Component class="javax.swing.JTextField" name="UserNameTextField">
               <Properties>
-                <Property name="text" type="java.lang.String" value="admin"/>
+                <Property name="text" type="java.lang.String" value="admin@uni.edu"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="UserNameTextFieldActionPerformed"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JTextField" name="PasswordTextField">
               <Properties>
-                <Property name="text" type="java.lang.String" value="****"/>
+                <Property name="text" type="java.lang.String" value="admin123"/>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PasswordTextFieldActionPerformed"/>
